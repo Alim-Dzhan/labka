@@ -10,7 +10,7 @@ print(now_without_microseconds)
 """
 import datetime
 now = datetime.datetime.now()
-delta=datetime.timedelta(microseconds=1000)
+delta=datetime.timedelta(microseconds=0)
 new_date=now - delta
 print(new_date)
 """

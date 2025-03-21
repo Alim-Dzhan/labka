@@ -1,7 +1,7 @@
 import json
 
 with open("sample-data.json") as file:
-    data = json.load(file) # changes to the dict
+    data = json.load(file) 
     interfaces = data["imdata"]
     
     print("Interface Status")

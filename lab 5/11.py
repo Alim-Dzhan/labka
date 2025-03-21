@@ -1,3 +1,5 @@
+"""
+
 import re
 
 def match_pattern(text):
@@ -5,6 +7,7 @@ def match_pattern(text):
     return re.findall(pattern, text)
 
 text_to_search = """
+"""
 ДУБЛИКАТ
 Филиал ТОО EUROPHARMA Астана
 БИН 080841000761
